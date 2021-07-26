@@ -36,8 +36,8 @@ person p3=change(25);
         System.out.println(c);
         System.out.println(a);
         System.out.println(b);
-        Integer aa=1678;
-        Integer bb=aa;
+        Integer aa=128;
+        Integer bb=128;
         System.out.println(aa==bb);
     }
 
