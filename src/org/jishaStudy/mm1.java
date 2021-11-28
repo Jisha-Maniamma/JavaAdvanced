@@ -6,8 +6,29 @@ public class mm1 {
         int b=3;
         float f=1.2f;
         boolean bol=true;
-        //b=b*a is error
+        b= (int) (b*a);
+        //b=b*a; is error
+
+        ///////////
         b*=a;
+        /////////
+        byte bb1=10;
+        byte aa1=20;
+        ////
+        byte ee=(byte) (bb1+aa1);
+        int cc=bb1*aa1;
+        double cc1=bb1*aa1;
+        float cc11=(bb1*aa1);
+        float ss=10f;
+        double ddd=10f;
+        ////
+String pp="";
+pp+='a';
+        System.out.println(pp=="a");
+        System.out.println(pp.equals("a"));
+
+
+        //b=a;
         System.out.println(b);
         //float,boolean,double not allowed inside switch
         switch (b){
@@ -31,5 +52,12 @@ String str=new String("j");
         //substring donot chnage value of string builder
         System.out.println(sb);
         System.out.println(str);
+    }
+    public static final void print(){
+
+    }
+
+    public final static void printt(){
+
     }
 }
